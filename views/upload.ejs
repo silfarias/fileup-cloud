@@ -1,0 +1,15 @@
+<%- include('./partials/head') ;%>
+
+<div class="container">
+  <div class="row">
+    <h2>Sube una imagen</h2>
+      <form action="/upload-local" method="POST" id="formUpload" enctype="multipart/form-data">
+        <div class="mb-3">
+          <input type="file" name="file">
+          <button type="submit" class="btn btn-primary mb-3">Upload</button>
+        </div>
+      </form>
+  </div>
+</div>
+  
+<%- include('./partials/head') ;%>
